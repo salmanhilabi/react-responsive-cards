@@ -1,9 +1,10 @@
 import './App.css';
+import CardsWrapper from "./component/cards/cardsWrapper";
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello World</h1>
+     <CardsWrapper/>
     </div>
   );
 }
